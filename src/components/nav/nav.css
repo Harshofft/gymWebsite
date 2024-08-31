@@ -1,0 +1,26 @@
+.nav-Bar{
+    height: 10vh;
+    width:100%;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-left: 3rem;
+    
+}
+.nav-option{
+    display: flex;
+    margin-right: 3rem;
+}
+.links{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 3rem;
+    text-decoration: none;
+}
