@@ -17,6 +17,8 @@ const supplement =[
       description:'Fish oil is a type of supplement made from the oil of oily fish. .'
     }
   ]
+const TITLE = 'SBM'
   export {
-    supplement
+    supplement,
+    TITLE
   }

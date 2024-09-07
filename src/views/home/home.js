@@ -3,7 +3,7 @@ import './home.css'
 import Nav from '../../components/nav/nav'
 import Card from '../../components/card/card'
 
-import { supplement } from './../../config/data'
+import { supplement  } from './../../config/data'
 function home() {
   return (<div className='home-page'>
     <Nav />

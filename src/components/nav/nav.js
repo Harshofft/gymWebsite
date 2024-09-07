@@ -2,12 +2,13 @@ import React from 'react'
 import './nav.css'
 import { Link } from 'react-router-dom'
 import Logo from './IMG-20240831-WA0001.jpg'
+import { TITLE } from '../../config/data'
 function nav() {
   return (
     <div className='nav-Bar'>
       <div className='nav-logo'>
     <img src={Logo} alt="hey" className='nav-title'/>
-    <p>SBM</p>
+    <p>{TITLE}</p>
       </div>
     
     <div className='nav-option'>
