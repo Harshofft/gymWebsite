@@ -10,7 +10,10 @@ function card(props) {
       <img src={Logo} alt="hey"  className='imgcard'/>
         <h1 className='title'>{props.title}</h1>
         <p>{props.description}</p>
-        
+        {
+          props.price? <p className='price'> ₹ {props.price}</p> : "NA"
+        }
+        <button className='btn-add' > Add to card</button>
     </div>
   )
 }

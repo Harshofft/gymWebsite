@@ -2,22 +2,28 @@ import React from 'react'
 import './home.css'
 import Nav from '../../components/nav/nav'
 import Card from '../../components/card/card'
+
+import { supplement } from './../../config/data'
 function home() {
-  return (<>
+  return (<div className='home-page'>
     <Nav />
     <div className='home-container'>
-    <Card 
-    Imgurl='https://img.freepik.com/premium-photo/large-canister-creatine-supplement-foreground-with-urban-gym-background_1196954-385.jpg?w=826'
-    imgs
-    title='creatine'
-    description='creatine is a metabolic disorder characterized by elevated levels of creatine '
-    
+    <div className='card-container'>
+      {
+        supplement.map((item)=>{
+          return <Card
+          Imgurl={item.Imgurl}
+          
+          title={item.title}
+          description={item.description}
+          price={item.price}
+          />
+        })
+      }
 
-    />
     </div>
-    
-
-    </>
+    </div>
+    </div>
   )
 }
 
