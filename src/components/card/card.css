@@ -1,5 +1,5 @@
 .card{
-    height: 19rem;
+    height: 20rem;
     width: 14rem;
     border: 1px solid #fff; 
     padding: 1rem;
@@ -44,8 +44,20 @@
     color: whitesmoke;
     border: none;
     font-weight: 400;
-    transition: 1.1s ease-in-out;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
 }
 .btn-add:hover{
     background-color: #66c2ff;
+}
+.imgbtn{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.counter{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
 }
